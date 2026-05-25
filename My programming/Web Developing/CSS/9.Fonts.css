@@ -1,0 +1,10 @@
+/*5.2.Text-Style.html*/
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw; /*px,em*/
+    font-weight: 700;
+}
+#p3{
+    font-family: "Barrio", system-ui;
+    margin: 10px;
+}

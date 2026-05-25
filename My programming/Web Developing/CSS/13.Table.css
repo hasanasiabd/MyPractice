@@ -1,0 +1,23 @@
+/* 16.Table-Tag.html */
+
+.table2,.th2,.td2{
+    border: 3px solid tomato;
+    border-collapse: collapse;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+.th2,.td2{
+    color: rgb(32, 88, 62);
+}
+
+.table3,.th3,.td3{
+    border: 3px solid tomato;
+    border-collapse: collapse;
+    /* text-align: left; */
+}
+.td3{
+    text-align: center;
+    color: rgb(139, 120, 103);
+}

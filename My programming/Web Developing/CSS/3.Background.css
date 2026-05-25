@@ -1,0 +1,15 @@
+/*2.Basics-Part-01.html*/
+h2{
+    background-color: rgb(42, 165, 71);
+    color: aqua;
+    text-align: justify;
+}
+body{
+    background-color: black;
+    background-image: url(../HTML/Img/Google-Photo-logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    color:white
+}

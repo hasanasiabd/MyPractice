@@ -1,0 +1,19 @@
+/* 3.2.Heading.html */
+
+
+h1{
+    text-align: center;
+    display: inline-block;
+}
+span{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+
+h2{
+    display: none;
+}
+ul li{
+    display: inline;
+}

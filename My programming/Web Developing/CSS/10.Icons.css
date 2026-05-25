@@ -1,0 +1,23 @@
+/* 14.Link-Tag.html */
+
+.fa-facebook{
+    padding: 50px;
+    font-size: 100px;
+    color: blue;
+}
+.icon1{
+    margin: 20px;
+    font-size: 40px;
+    color: aqua;
+}
+
+.icon2{
+    font-size: 40px;
+    padding: 100px;
+}
+
+#div1{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}

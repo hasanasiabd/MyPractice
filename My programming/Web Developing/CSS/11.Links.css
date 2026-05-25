@@ -1,0 +1,25 @@
+/* 14.Link-Tag.html */
+
+.a1{
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    
+}
+body{
+    margin: 180px;
+}
+
+.a1:hover{
+    color: white;
+    background-color: aqua;
+}
+
+.a1:active{
+    color: blue;
+    background-color: yellow;
+}
+.a1:visited{
+    background-color: red;
+    color: rebeccapurple;
+}

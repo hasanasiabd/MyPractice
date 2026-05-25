@@ -1,0 +1,41 @@
+.Social{
+    width: 35px;
+    height: 35px;
+    background-image: url(../HTML/Img/Sprite-Social.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: -6px -47px; /*new*/
+    transition: 0.2s; /*new*/
+}
+.Social:hover{
+    background-position: -7px -83px;
+}
+.Social1{
+    width: 35px;
+    height: 35px;
+    background-image: url(../HTML/Img/Sprite-Social.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: -114px -47px; /*new*/
+    transition: 0.2s; /*new*/
+}
+.Social1:hover{
+    background-position: -114px -83px;
+}
+
+.Social2{
+    width: 35px;
+    height: 35px;
+    background-image: url(../HTML/Img/Sprite-Social.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: -153px -47px; /*new*/
+    transition: 0.2s; /*new*/
+}
+.Social2:hover{
+    background-position: -153px -83px;
+}
+
+div{
+    float: left;
+}

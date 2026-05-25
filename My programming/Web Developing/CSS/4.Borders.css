@@ -1,0 +1,11 @@
+/*4.Paragraph.html*/
+.p1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+}
+#p2{
+    border: 5px dotted rebeccapurple;
+    border-radius: 20px;
+}

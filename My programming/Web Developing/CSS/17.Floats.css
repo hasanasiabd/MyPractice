@@ -1,0 +1,35 @@
+/* 11.2.BDO-Tag.html */
+
+.img1{
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+.img2{
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+.box1{
+    height: 160px;
+    width: 240px;
+    background-color: red;
+}
+.box2{
+    height: 160px;
+    width: 240px;
+    background-color: rebeccapurple;
+}
+.box3{
+    height: 160px;
+    width: 240px;
+    background-color: green;
+}
+.box4{
+    height: 160px;
+    width: 240px;
+    background-color: gold;
+}
+div{
+    float: left;
+}

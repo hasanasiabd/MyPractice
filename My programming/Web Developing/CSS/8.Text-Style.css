@@ -1,0 +1,15 @@
+/*5.2.Text-Style.html*/
+h1{
+    color: aqua ;
+    background-color: black;
+    text-align: center;
+}
+#p1{
+    color: green;
+    text-transform: capitalize;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 40px;
+}

@@ -1,0 +1,17 @@
+/*9.Quotation-Tag.html*/
+.hasan{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+div{
+    color: rgb(255, 1, 1);
+}
+#L{
+    color: aqua;
+}
+#S{
+    padding: 20px 10px 40px 30px;
+}
+        /* Top, Right, Bottom, Left */

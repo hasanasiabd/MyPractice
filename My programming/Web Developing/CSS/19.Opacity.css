@@ -1,0 +1,24 @@
+/* 14.Link-Tag(19.Opacity.css).html */
+
+img{
+    width: 400px;
+}
+img:hover{
+    opacity: 0.6;
+}
+.bg{
+    width: 700px;
+    height: 400px;
+    background: url(../HTML/Img/Google-Photo-logo.png) no-repeat center;
+    overflow: hidden;
+}
+p{
+    font-size: 50px;
+}
+.box p{
+    text-align: center;
+    background-color: white;
+    margin-top: 100px;
+    padding: 10px;
+    opacity: 0.4;
+}

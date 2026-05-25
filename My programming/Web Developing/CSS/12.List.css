@@ -1,0 +1,23 @@
+/* 17.List-Tag.html */
+
+/* body{
+    background-color: black;
+} */
+.ul1{
+    list-style: decimal-leading-zero inside;
+    /* list-style-type: decimal-leading-zero;
+    list-style-image: url(../HTML/Img/PMBD\ IT\ Ins\ RB.png) 
+    list-style-position: inside;  outside
+    letter-spacing: 1px;
+    word-spacing: 5px; */
+}
+
+/* decimal
+    decimal-leading-zero
+    upper-alpha
+    lower-alpha
+    lower-roman
+    upper-roman
+    circle
+    square
+*/

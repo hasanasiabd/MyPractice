@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Document
+    </title>
+</head>
+<body>
+    Hello Would
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Document
+    </title>
+</head>
+<body>
+    Hasan Programmar
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Document
+    </title>
+</head>
+<body>
+    <h1>Hasan Programmar</h1>
+    <h1>Hello Would</h1>
+    <h2>Hello World</h2>
+    <h3>Hello Would</h3>
+    <h4>Hello Would</h4>
+    <h5>Hello Would</h5>
+    <h6>Hello Would</h6>
+    <p>Hasan is a programmar</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <h1>Hasan Programmar</h1>
+    <h1>Hello Would</h1>
+    <h2>Hello World</h2>
+    <h3>Hello Would</h3>
+    <h4>Hello Would</h4>
+    <h5>Hello Would</h5>
+    <h6>Hello Would</h6>
+    <p>Hasan is a programmar</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <h1>Hasan Programmar</h1>
+    <h1>Hello Would</h1>
+    <h2>Hello World</h2>
+    <h3>Hello Would</h3>
+    <h4>Hello Would</h4>
+    <h5>Hello Would</h5>
+    <h6>Hello Would</h6>
+    <p>Hasan is a programmar</p> 
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <h1>Hasan Programmar</h1>
+    <h1>Hello Would</h1>
+    <h2>Hello World</h2>
+    <h3>Hello Would</h3>
+    <h4>Hello Would</h4>
+    <h5>Hello Would</h5>
+    <h6>Hello Would</h6>
+    <p>Hasan is a programmar</p> <br><br>
+    <p>The combination of soaring natural gas demand and plummeting domestic production has pushed the Bangladesh government to diversify its energy sources. In the past, various plans, including the Integrated Energy and Power Master Plan 2023, have attempted to address this concern, but they have driven a shift towards imported liquefied natural gas (LNG) instead. As a result, the LNG pathway, pursued as a fuel diversification strategy without enough investment in domestic gas exploration, has become an economic burden for the country. <br><br>
+
+    With surging LNG imports, the government has drastically increased gas tariffs, making industrial production expensive. Yet, the government pays a hefty annual subsidy on account of LNG imports. Unless Bangladesh streamlines its energy pathway, the reliance on imported LNG may further expose the vulnerability of its energy system, leading to a recurring subsidy problem.  </p>
+
+    <p>বিজয় মানেই সব সময় বিদেশি শত্রুকে তাড়ানো নয়; কখনো কখনো বিজয় মানে ঘরের ভেতরের স্বৈরাচারী প্রথাকে ভেঙে নতুন দিনের সূচনা করা। আজ ২৮ ডিসেম্বর, আমাদের প্রতিবেশী রাষ্ট্র নেপালের ইতিহাসের এক মোড় ঘোরানো দিন। ২০০৭ সালের এই দিনে নেপালের অন্তর্বর্তীকালীন সংসদ এক যুগান্তকারী সিদ্ধান্ত গ্রহণ করে, যা হিমালয়ের এই দেশটির ২৪০ বছরের পুরোনো রাজতন্ত্রের কফিনে শেষ পেরেকটি ঠুকে দেয়।</p>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <br>
+    <p style = "color:blue;text-align: center; background-color:black; font-size:100px;">Hasan is a programmar</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <br>
+    <p>Hasan is a programmer</p><br>
+    <p><b>Hasan is a programmer</b></p><br>
+    <p><strong>Hasan is a programmer</strong></p><br>
+    <p><i>Hasan is a programmer</i></p><br>
+    <p><em>Hasan is a programmer</em></p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <p>Hasan is a programmer</p><br>
+    <p><small>Hasan is a programmer</small></p><br>
+    <p><u>Hasan is a programmer</u></p><br>
+    <p><ins>Hasan is a programmer</ins></p><br>
+    <p><del>Hasan is a programmer</del></p><br>
+    <p><mark>Hasan is a programmer</mark></p><br>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <p>Hasan Vaiya</p><br>
+    <p>Hasan<sub>2</sub> Vaiya<sub>2</sub></p><br>
+    <p>Hasan<sup>2</sup> Vaiya<sup>2</sup></p><br>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    Hasan says,<blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates excepturi debitis optio fugiat! Perspiciatis in nam reprehenderit?</blockquote>
+    Hasan says, <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque at voluptatem assumenda eos dolorem perspiciatis cumque unde praesentium temporibus.</q>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <address>Hasan <br>
+        Dhaka-1361 <br>
+        Bangladesh <br>
+    </address>
+    <p>Hasan vaiya live in <abbr title="Bangladesh">BD.</abbr></p>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <bdo dir="rtl">I Love Hasan Vaiya</bdo>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Webside
+    </title>
+</head>
+<body>
+    <bdo dir="rtl">أحب حسن فايا</bdo>
+</html>

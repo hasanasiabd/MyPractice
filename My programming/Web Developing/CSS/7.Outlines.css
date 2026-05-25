@@ -1,0 +1,16 @@
+/*10.Address_&_Addr-Tag.html*/
+address{
+    margin: 50px;
+    border: 5px solid gold;
+    outline-width: 10px;
+    outline-color: aqua;
+    outline-style: dotted;
+    outline-offset: 20px;
+}
+p{
+    margin: 20px;
+    border: dashed rebeccapurple 10px;
+    outline: solid chartreuse 5px ;
+    outline-offset: 3px;
+
+}

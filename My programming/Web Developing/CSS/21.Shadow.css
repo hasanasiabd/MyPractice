@@ -1,0 +1,29 @@
+/* 27.test.css.html */
+
+h1{
+    text-align: center;
+    text-shadow: -3px 2px 0px rgb(250, 24, 24);
+}
+.bg{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0,0.5);
+    box-shadow: -3px 7px 100px rgb(16, 172, 60); 
+    /* x - y - blur - (Sprite) - color */
+}
+.bg img{
+    width: 100%;
+    /* position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    right: 0; */
+
+    
+}
+
+h3{
+    margin: 0;
+}

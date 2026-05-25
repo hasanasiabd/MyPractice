@@ -1,0 +1,25 @@
+/* 13.2.Commenting(18.Pseudo-Class_&_Elements.css).html */
+
+/* H1,q{
+    display: none;
+} */
+a:hover{
+    background-color: black;
+    color: red;
+}
+
+h2:nth-last-child(4){
+    color: red;
+}
+p::first-letter{
+    color: blue;
+    font-size: 35px;
+}
+p::first-line{
+    color: blueviolet;
+}
+.h11::after{
+    content: url(../HTML/Img/05.png);
+}
+
+/* 01917232047 */ 

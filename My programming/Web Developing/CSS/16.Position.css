@@ -1,0 +1,110 @@
+/* 4.2.Paragraph.html */
+
+.box1{
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+
+.box2{
+    background-color: red;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.box3{
+    background-color: rgb(155, 155, 155);
+    height: 500px;
+    width: 15px ;
+}
+
+.box4{
+    background-color: rgb(105, 105, 105);
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    border-radius: 70px;
+}
+
+.box5{
+    background-color: rgb(105, 105, 105);
+    position: absolute;
+    top: 600px;
+    left: 65px;
+    height: 30px;
+    width: 100px;
+}
+
+.box6{
+    background-color: rgb(105, 105, 105);
+    position: absolute;
+    top: 620px;
+    left: 50px;
+    height: 30px;
+    width: 130px;
+}
+
+.box7{
+    background-color: rgb(105, 105, 105);
+    position: absolute;
+    top: 640px;
+    left: 30px;
+    height: 30px;
+    width: 170px;
+}
+.h1{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+
+body{
+    padding-bottom: 500px;
+}
+
+
+.box{
+    padding: 100px;
+}
+
+.name{
+    bottom: 2px solid tomato;
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+
+}
+
+ul li{
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(30, 255, 0);
+}
+a:hover{
+    background-color: aqua;
+    color: red;
+}
+a:active{
+    background-color: black;
+    color: white;
+}
+a:visited{
+    background-color: black;
+    color: blue;
+}
