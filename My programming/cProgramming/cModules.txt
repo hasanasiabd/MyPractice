@@ -17,3 +17,11 @@ C programming
 	For Loop
 	While Loop
 	Do...While Loop
+	Break & Continue
+	switch & Case Statement
+	Goto Statement
+	C Functions
+	User-defined functions
+	Types of User-defined Functions
+	Recursion
+	Storage Class
