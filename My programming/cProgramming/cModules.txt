@@ -13,7 +13,7 @@ C programming
 	Operator
 	C Language sizeof
 	C example
-	IF Else
+	IF...Else
 	For Loop
 	While Loop
-
+	Do...While Loop
