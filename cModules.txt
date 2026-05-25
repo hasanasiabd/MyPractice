@@ -1,0 +1,20 @@
+C programming 
+
+	Induraction history
+	Code::block setup
+	Visual Studio code (vs code) setup
+	firstProgram "Hello World!"
+	Syntax
+	Keywords & Identifier
+	Variable & Constant (পরিবর্তনশীল এবং ধ্রুবক)
+	Data Types
+	Input Output
+	Comment
+	Operator
+	C Language sizeof
+	C example
+	IF Else
+	For Loop
+	While Loop
+
+https://ucharon.com/wp-content/uploads/2026/02/Com2_compressed.pdf
