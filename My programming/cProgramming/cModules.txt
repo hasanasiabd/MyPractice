@@ -1,8 +1,9 @@
-C programming 
+C programming--------------------------------------------------------------------
 
+C Basic:-----
 	Induraction history
-	Code::block setup
-	Visual Studio code (vs code) setup
+	Code::Blocks setup
+	Visual Studio code (vs code) setup ???
 	firstProgram "Hello World!"
 	Syntax
 	Keywords & Identifier
@@ -11,17 +12,72 @@ C programming
 	Input Output
 	Comment
 	Operator
-	C Language sizeof
+		Arithmetic(+, -, *, /, %)
+		Increment and Decrement(++, --)
+		Assignment(=, +=, -=, *=, /=, %=)
+		Comparison Operators(>, <, >=, <=)
+		Relational(>, <, >=, <=, ==, !=,)
+		Logical(&&, ||, !)
+		Conditional Operator(?:)
+		Bitwise(&, |, ^, ~, <<, >>)
+		Comma(,)
+	sizeof() Operator
 	C example
-	IF...Else
+=================================================================================
+C Flow Contorl:-----	
+	If...Else
 	For Loop
 	While Loop
 	Do...While Loop
 	Break & Continue
 	switch & Case Statement
 	Goto Statement
-	C Functions
+=================================================================================
+C Functions:-----
+	Functions
 	User-defined functions
 	Types of User-defined Functions
 	Recursion
 	Storage Class
+=================================================================================
+C Arrays:-----
+	Arrays
+	Multidimensional Arrays
+	Pass arrays to a function in C
+=================================================================================
+C Pointers:-----
+	Pointers
+	Relationship Between Arrays and Pointers
+	Pass Addresses and Pointers
+	Dynamic Memory Allocation
+	Array and Pointer Examples
+=================================================================================
+C Strings:-----
+	Strings
+	String Manipulations Using Library Functions
+	String Examples
+=================================================================================
+C Structure and Union:-----
+	struct
+	structs and Pointers
+	Structure and Function
+	Unions
+================================================================================
+C File Handling:-----
+	File Handling
+	Files Examples
+================================================================================
+C Additional Topics:-----
+	Precedence And Associativity Of Operators
+	Preprocessor and Macros
+	Standard Library Functions
+	enums
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+case:
+	myname
+	MyName
+	myName
