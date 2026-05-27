@@ -1,5 +1,8 @@
 #include <stdio.h>
 const double pi = 3.1416; //TODO: Global constant variable
+
+void greet(); //? Function Prototype
+
 int main(){
     // int a = 10;
     // int b = 20;
@@ -334,6 +337,54 @@ int main(){
     //         goto jamp; //? This will jump back to the label "jamp" and ask the user to enter the operator and numbers again.
     // }
 
-    printf("\nHello World! \nWelcome to cProgramming!! \nhasanSir!!! \n");
+
+    //*C Function
+    //? A function is a block of code that performs a specific task. It can take input in the form of parameters and can return a value. Functions are used to break down a program into smaller, manageable pieces, making it easier to read, maintain, and debug.
+    //? In C, a function is defined with a return type, a name, and a parameter list. The body of the function contains the code that performs the task. Functions can be called from other parts of the program to execute the code within them.
+    //? Functions can be categorized into 2 types:-----------------------------
+        //? built-in functions or Standard library functions (provided by the C standard library) and user-defined functions (created by the programmer). Examples of built-in functions include printf(), scanf(), and strlen(), while 
+        //? user-defined functions can be created to perform specific tasks as needed.
+    //? Standard library functions are pre-defined functions that are included in the C standard library. They provide a wide range of functionality, such as input/output operations, string manipulation, mathematical calculations, and more. These functions are declared in header files, which can be included in a C program using the #include directive. Some commonly used header files and their descriptions include:
+        //*  C Header Files	     Description
+        //?     <assert.h>	 Program assertion functions
+        //!     <ctype.h>	 Character type functions
+        //?     <locale.h>	 Localization functions
+        //!     <math.h>	 Mathematics functions
+        //?     <setjmp.h>	 Jump functions
+        //?     <signal.h>	 Signal handling functions
+        //?     <stdarg.h>	 Variable arguments handling functions
+        //TODO: <stdio.h>	 Standard Input/Output functions
+        //?     <stdlib.h>	 Standard Utility functions
+        //!     <string.h>	 String handling functions
+        //?     <time.h>	 Date time functions
+    //? Example of a user-defined function
+            /*  #include <stdio.h>
+            void functionName()
+            {
+                ... .. ...
+                ... .. ...
+            }
+
+            int main()
+            {
+                ... .. ...
+                ... .. ...
+
+                functionName();
+                
+                ... .. ...
+                ... .. ...
+            } */
+
+    greet();             //? Function Call
+
+    printf("\nWelcome to cProgramming!! \nhasanSir!!! \n");
     return 0;
+}
+
+//* user-defined functions
+void greet() {                            //? Function Definition
+    printf("\nHello World!");
+    return;                               //? return statement 
+    //! return statement is optional in a void function, but it can be used to exit the function early if needed.
 }
