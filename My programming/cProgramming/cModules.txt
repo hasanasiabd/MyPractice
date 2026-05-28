@@ -1,14 +1,14 @@
 C programming--------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
-C Basic:-----
+C Fundamentals:-----
 	Induraction history
 	Code::Blocks setup
 	Visual Studio code (vs code) setup ???
 	firstProgram "Hello World!"
 	Syntax
 	Keywords & Identifier
-	Variable & Constant (পরিবর্তনশীল এবং ধ্রুবক)
+	Variabl & Constant (পরিবর্তনশীল এবং ধ্রুবক)
 	Data Types
 	Input Output
 	Comment
