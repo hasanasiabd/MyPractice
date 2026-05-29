@@ -1,24 +1,24 @@
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int a = 10;
-    int b = 5;
-    int c;
+// int main() {
+//     int a = 10;
+//     int b = 5;
+//     int c;
 
-    c = a + b;  // Addition
-    printf("Addition: %d\n", c);
+//     c = a + b;  // Addition
+//     printf("Addition: %d\n", c);
 
-    c = a - b;  // Subtraction
-    printf("Subtraction: %d\n", c);
+//     c = a - b;  // Subtraction
+//     printf("Subtraction: %d\n", c);
 
-    c = a * b;  // Multiplication
-    printf("Multiplication: %d\n", c);
+//     c = a * b;  // Multiplication
+//     printf("Multiplication: %d\n", c);
 
-    c = a / b;  // Division
-    printf("Division: %d\n", c);
+//     c = a / b;  // Division
+//     printf("Division: %d\n", c);
 
-    c = a % b;  // Modulus
-    printf("Modulus: %d\n", c);
+//     c = a % b;  // Modulus
+//     printf("Modulus: %d\n", c);
 
-    return 0;
-}
+//     return 0;
+// }
