@@ -1,17 +1,21 @@
 C programming--------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
-C Fundamentals:-----
-	Induraction history
+C Introduction:-----
+	Induraction History
 	Code::Blocks setup
 	Visual Studio code (vs code) setup ???
+	Getting Started with C
 	firstProgram "Hello World!"
+	Your First C Program
+	C Comments
+=================================================================================
+C Fundamentals:-----
 	Syntax
 	Keywords & Identifier
-	Variabl & Constant (পরিবর্তনশীল এবং ধ্রুবক)
+	Variabl, Constant & Literals (পরিবর্তনশীল, ধ্রুবক এবং আক্ষরিক মান)
 	Data Types
 	Input Output
-	Comment
 	C example
 =================================================================================
 C Operator:-----
