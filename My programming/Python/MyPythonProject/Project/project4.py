@@ -1,10 +1,10 @@
 
-# Text Based Adventure Game
+# Project 4: Text Based Adventure Game
 
 Answer = input("তুমি কি এই গেমটি খেলতে চাও। [Yes,হ্যাঁ/No,না]: ")
 Yes
 if Answer == "Yes" or Answer == "হ্যাঁ":
-    print("এই খেলায় স্বাগতম।")
+    print("এই খেলায় স্বাগতম।")
     Answer = input("তুমি কি জঙ্গলে যেতে চাও নাকি গুহায়? [Forest,জঙ্গলে/Cave,গুহায়]:")
     if Answer == "Forest" or Answer == "জঙ্গলে":
         print("তুমি ক্ষুধার্ত বাঘ দেখতে পাও। বাঘ তোমাকে খেয়ে ফেলে। এখন তুমি খেলায় হেরে গিয়েছ।")

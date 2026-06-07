@@ -1,5 +1,5 @@
 
-# Number Guessing Game
+# Project 3: Number Guessing Game With Limited Attempts
 
 import random
 

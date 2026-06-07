@@ -1,5 +1,5 @@
 
-# Hangman Game
+# Project 6: Hangman Game
 
 word = "fan"
 Chancse = 3
