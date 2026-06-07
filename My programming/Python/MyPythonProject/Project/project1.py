@@ -1,60 +1,65 @@
-# Project 1: PDF ম্যানিপুলেশন (PDF Manipulation)
-
+import os
+import PyPDF2
 from PyPDF2 import PdfMerger
 
-AllPDF = ["Spoken English Day-01.pdf","Spoken English Day-02.pdf"]
+# ==========================================
+# ১. একাধিক PDF মার্জ (Merge) বা একত্রীকরণ করা
+# ==========================================
 
-OurMerger = PdfMerger()
-for NewPDF in AllPDF:
-    OurMerger.append(NewPDF)
+# যে PDF গুলো জোড়া দিবি সেগুলোর লিস্ট
+all_pdfs = ["Spoken English Day-01.pdf", "Spoken English Day-02.pdf"]
+merged_filename = "SE Day-01 & 02.pdf"
 
-OurMerger.write("SE Day-01 & 02.pdf")
-OurMerger.close()
+our_merger = PdfMerger()
 
-# import os
-# os.remove("SE Day-01 & 02.pdf")
+for pdf in all_pdfs:
+    our_merger.append(pdf)
 
-a = PdfMerger()
-for all in AllPDF:
-    a.append(all)
+# মার্জ হওয়া নতুন ফাইলটি সেভ করা
+our_merger.write(merged_filename)
+our_merger.close()
 
-a.write("SE Day-01 & 02.pdf")
-a.close()
+print(f"সফলভাবে মার্জ হয়েছে: {merged_filename}")
 
-import PyPDF2
 
-# তোর PDF ফাইলের নাম
+# ==========================================
+# ২. PDF থেকে নির্দিষ্ট পেজ বাদ দেওয়া (Remove Pages)
+# ==========================================
+
 input_file = "SE Day-01 & 02.pdf"
 output_file = "SE Day-01 & 02 (Modified).pdf"
 
-# কোন পেজ বাদ দিবি? ধর, তুই 8,10 নম্বর পেজ মুছতে চাস
-page_to_remove = [8,9]  # মনে রাখ, index 0 থেকে শুরু হয়
+# ⚠️ মনে রাখবি: PDF এর পেজ ইনডেক্স ০ (Zero) থেকে শুরু হয়।
+# যেমন: ৯ম ও ১০ম পেজ বাদ দিতে চাইলে ইনডেক্স হবে ৮ এবং ৯।
+pages_to_remove = [8, 9] 
 
-## [একটি পেজ বাদ দেওয়ার জন্য।]
+# নোট: তুই যদি মাত্র ১টি পেজ বাদ দিতে চাস (যেমন ৩ নম্বর পেজ, ইনডেক্স ২), 
+# তাহলে নিচের লাইনটি আনকমেন্ট করিস এবং loops এর কন্ডিশন 'if i != page_to_remove:' করে দিস।
 # page_to_remove = 2
 
-
-# পুরানো PDF ওপেন
+# মূল PDF টি রিড করা এবং নতুন ফাইল রাইট করার প্রস্তুতি
 with open(input_file, 'rb') as pdf_file:
     reader = PyPDF2.PdfReader(pdf_file)
-    writer = PyPDF2.PdfWriter()                ## [একটি পেজ বাদ দেওয়ার জন্য।]
-             # পুরানো PDF ওপেন
-             # with open(input_file, 'rb') as pdf_file:
-             #     reader = PyPDF2.PdfReader(pdf_file)
-             #     writer = PyPDF2.PdfWriter()
+    writer = PyPDF2.PdfWriter()
+    
+    # লুপ চালিয়ে নির্দিষ্ট পেজগুলো বাদ দিয়ে বাকিগুলো নতুন ফাইলে যোগ করা
     for i in range(len(reader.pages)):
-        if i not in page_to_remove:
-            writer.add_page(reader.pages[i])   ## [একটি পেজ বাদ দেওয়ার জন্য।]
-             #     for i in range(len(reader.pages)):
-             #         if i != page_to_remove:
-             #             writer.add_page(reader.pages[i])
-    # নতুন PDF লিখে ফেল
+        if i not in pages_to_remove:
+            writer.add_page(reader.pages[i])
+            
+    # ফাইনাল মডিফাইড PDF টি রাইট করা
     with open(output_file, 'wb') as output_pdf:
         writer.write(output_pdf)
 
-print("🎉 কাজ শেষ! নতুন PDF: ", output_file)
-
-# import os
-# os.remove(input_file)
+print(f"কাজ শেষ! পেজ বাদ দেওয়া নতুন PDF: {output_file}")
 
 
+# ==========================================
+# ৩. পুরানো বা অন্তর্বর্তীকালীন ফাইল ডিলিট করা (ঐচ্ছিক)
+# ==========================================
+# তুই যদি চাস মডিফাইড ফাইলটি তৈরি হওয়ার পর মাঝখানের মার্জ হওয়া ফাইলটি ডিলিট হয়ে যাক,
+# তাহলে নিচের লাইনটি আনকমেন্ট (# মুছে দেওয়া) করে দিতে পারিস।
+
+# if os.path.exists(input_file):
+#     os.remove(input_file)
+#     print(f"🗑️ পুরানো ফাইলটি ডিলিট করা হয়েছে: {input_file}")
