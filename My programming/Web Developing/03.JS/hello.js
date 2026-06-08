@@ -2,20 +2,32 @@
 
 // console.log("Hello World");
 
+// //! case:
+// //?     myName       -camelCase
+// //?     my_name      -snake_case
+// //?     MyName       -PascalCase
+// //? 	   My-Name      -kebabCase
+// //? 	   myname       -lowercase
+// //? 	   MYNAME 		-UPPERCASE
+// //? 	   MY_NAME 	    -UPPER_SNAKE_CASE
 
 //        //* Data Types in JavaScript
-// var strType = `hasanSir`;
+
+//        //* String
+// var strType = 'hasanSir';      //! Single quote (সিঙ্গেল কোটেশন)
 // console.log(strType);
 
-// var strType = 'hasanSir';
+// var strType = "hasanSir";     //! Double quote (ডাবল কোটেশন)
 // console.log(strType);
 
-// var strType = "hasanSir";
+// var strType = `hasanSir`;       //! Backtick sign (ব্যাকটিক)
 // console.log(strType);
 
-// var numType = 18;
+//        //* Number
+// var numType = 181544568235621546;
 // console.log(numType);
 
+//        //* Boolean
 // var BoolType = false;
 // console.log(typeof BoolType);
 
@@ -100,68 +112,73 @@
 
 //            //* JavaScript Operators
 
-// var num5 = 20;         //? (+)
+// var num5 = 20;         //? (+) addition
 // var num6 = 20;
 // var total = num5+num6;
 // console.log(total);
 
-// var num5 = 20;         //? (-)
+// var num5 = 20;         //? (-) subtraction
 // var num6 = 30;
 // var total = num5-num6;
 // console.log(total);
 
-// var num5 = 20;         //? (-)
+// var num5 = 20;         //? (-) subtraction
 // var num6 = 30;
 // var total = num6-num5;
 // console.log(total);
 
-// var num5 = 20;         //? (*)
+// var num5 = 20;         //? (*) multiplication
 // var num6 = 30;
 // var total = num6*num5;
 // console.log(total);
 
-// var num5 = 20;         //? (/)
+// var num5 = 20;         //? (/) division
 // var num6 = 30;
 // var total = num6/num5;
 // console.log(total);
 
-// var num5 = 20;         //? (%)
+// var num5 = 20;         //? (%) modulus (বাকি/ভাগশেষ)
 // var num6 = 30;
 // var total = num6 % num5;
 // console.log(total);
 
-// var num1 = -30;           //*Math.abs()
+// var num1 = -30;           //*Math.abs() 
+//                           //?absolute value (পরম মান)
 // var sum = Math.abs(num1);
 // console.log(sum);
 
 
-// var totalMember = 10;    //*Math.round()
+// var totalMember = 10;    //* Math.round() 
+//                          //? round value (রাউন্ড মান)
 
 // var votar = 0.000001;
 // console.log(Math.round(votar));
 
 
-// var totalMember = 10;    //*Math.ceil()
+// var totalMember = 10;    //* Math.ceil() 
+//                          //? celing value (সিলিং মান) -উর্ধ্বতন মান
 
 // var votar = 0.000001;
 // console.log(Math.ceil(votar));
 
 
-// var totalMember = 10;    //*Math.floor()
+// var totalMember = 10;    //* Math.floor() 
+//                          //? floor value (ফ্লর মান) -নিম্নতন মান
 
 // var votar = 0.99999;
 // console.log(Math.floor(votar));
 
 
-// var lotary = Math.random();  //*Math.random()
+// var lotary = Math.random();  //*Math.random() 
+//                              //? random value (র‍্যান্ডম মান) -0 থেকে 1 এর মধ্যে র‍্যান্ডম মান
 // console.log(lotary);
 
 // var lotary = Math.random() * 100;  //*Math.random()
+//                              //? random value (র‍্যান্ডম মান) -0 থেকে 100 এর মধ্যে র‍্যান্ডম মান
 // console.log(lotary);
 
 
 
-//         //* Assignment           //Hablu Programmer
 
 
 //         //* Conditional Statements
