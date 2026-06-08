@@ -1,3 +1,28 @@
+//? first js program
+
+// console.log("Hello World");
+
+
+//        //* Data Types in JavaScript
+// var strType = `hasanSir`;
+// console.log(strType);
+
+// var strType = 'hasanSir';
+// console.log(strType);
+
+// var strType = "hasanSir";
+// console.log(strType);
+
+// var numType = 18;
+// console.log(numType);
+
+// var BoolType = false;
+// console.log(typeof BoolType);
+
+//       //* typeof operator
+
+//       //? typeof is a operator which is used to find the data type of a variable. It returns a string indicating the type of the operand. For example, if you have a variable that holds a number, using typeof on that variable will return "number". If you have a variable that holds a string, using typeof on that variable will return "string". This operator is useful for debugging and for writing code that can handle different types of data dynamically.
+
 // var strType = `hasanSir`;
 // console.log(typeof strType);
 
@@ -32,25 +57,25 @@
 // var mot = num1 + num2;
 // console.log(mot);
 
-// var num1 = '30';           //parseFloat
+// var num1 = '30';           //* parseFloat
 // var num2 = 20;
 // num1 = parseFloat(num1)
 // var mot = num1 + num2;
 // console.log(mot);
 
-// var num1 = '30.546514';    //*parseInt()
+// var num1 = '30.546514';    //* parseInt()
 // var num2 = 20;
 // num1 = parseInt(num1)
 // var mot = num1 + num2;
 // console.log(mot);
 
-// var num1 = '30.546514';    //*parseFloat() 30.654654
+// var num1 = '30.546514';    //* parseFloat() 30.654654
 // var num2 = 20;
 // num1 = parseFloat(num1)
 // var mot = num1 + num2;
 // console.log(mot);
 
-// var num3 = 50;             //""+ (str)
+// var num3 = 50;             //? ""+ (str)
 // var num4 =40;
 // num4 = "" + num4;
 // console.log(num4);
@@ -60,47 +85,47 @@
 // num4 = "" + num4;
 // console.log(typeof num4);
 
-// var num3 = 50;            //""+  total (str)
+// var num3 = 50;            //? ""+  total (str)
 // var num4 =40;
 // num4 = "" + num4;
 // var total = num3 + num4;
 // console.log(total);
 
-// var num3 = 50;          //typeof ""+  total (str)
+// var num3 = 50;          //? typeof ""+  total (str)
 // var num4 =40;
 // num4 = "" + num4;
 // var total = num3 + num4;
 // console.log(typeof total);
 
 
-//            //#JavaScript Operators
+//            //* JavaScript Operators
 
-// var num5 = 20;         // (+)
+// var num5 = 20;         //? (+)
 // var num6 = 20;
 // var total = num5+num6;
 // console.log(total);
 
-// var num5 = 20;         // (-)
+// var num5 = 20;         //? (-)
 // var num6 = 30;
 // var total = num5-num6;
 // console.log(total);
 
-// var num5 = 20;         // (-)
+// var num5 = 20;         //? (-)
 // var num6 = 30;
 // var total = num6-num5;
 // console.log(total);
 
-// var num5 = 20;
+// var num5 = 20;         //? (*)
 // var num6 = 30;
 // var total = num6*num5;
 // console.log(total);
 
-// var num5 = 20;         // (/)
+// var num5 = 20;         //? (/)
 // var num6 = 30;
 // var total = num6/num5;
 // console.log(total);
 
-// var num5 = 20;         // (%)
+// var num5 = 20;         //? (%)
 // var num6 = 30;
 // var total = num6 % num5;
 // console.log(total);
@@ -136,9 +161,9 @@
 
 
 
-//         //Assignment           //Hablu Programmer
+//         //* Assignment           //Hablu Programmer
 
 
-//         //Conditional Statements
+//         //* Conditional Statements
 
 
